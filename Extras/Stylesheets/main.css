@@ -1,0 +1,292 @@
+*,html,body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent; }
+
+.scroller {
+    position: sticky;
+    margin-left: 79.1015625vw;
+    margin-top: 53.05039787798408vh;
+}
+
+.scroller2 {
+    position: absolute;
+    margin-left: -65.10416666666667vw;
+    margin-top: 87.53315649867373vh;
+}
+
+.collapsible {
+    margin-top: 2.6041666666666665vw;
+    transition-duration: 0.5s;
+    
+}
+
+.collapsible:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(245, 221, 221));
+}
+
+.kshitij_back {
+    background: url(../Addons/Images/Kshitij_Background.webp);
+    background-size: cover;
+    
+}
+
+.collapsible-header {
+    background-color: rgb(102, 165, 207);
+    font-size: 1.4322916666666667vw;
+    letter-spacing: 0.3255208333333333vw;
+}
+
+.backs1 {
+    height: 100vh;
+    position: relative;
+    width: 100vw! important;
+}
+
+.kshitij {
+    width: 16.276041666666668vw! important;
+    border-radius: 1.3020833333333333vw! important;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin-top: 3.9787798408488064vh;
+    
+}
+
+.kshitij:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(204, 202, 202));
+}
+
+.kshitijtitle {
+    margin-left: 3.90625vw;
+    font-size: 1.6927083333333333vw;
+    letter-spacing: 0.1953125vw;
+    font-weight: bold;
+    margin-top: 1.3262599469496021vh;
+}
+
+.kshitijinfo {
+    margin-top: -47.745358090185675vh;
+    letter-spacing: 0.13020833333333334vw;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+
+
+.button {
+    
+    margin-top: -14.588859416445624vh;
+    margin-left: 11.71875vw;
+}
+
+.developer {
+    margin-top: 5.305039787798409vh;
+    letter-spacing: 0.78125vw;
+    font-size: 2.6041666666666665vw;
+}
+
+.saksham {
+    width: 16.276041666666668vw! important;
+    border-radius: 1.3020833333333333vw! important;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin-top: 3.9787798408488064vh;
+    
+}
+
+.sakshamtitle {
+    margin-left: 3.90625vw;
+    font-size: 1.6927083333333333vw;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-top: 1.3262599469496021vh;
+}
+
+.saksham_back {
+    background: url(../Addons/Images/Saksham_Background.webp);
+    background-size: cover;
+}
+
+.sakshaminfo {
+    margin-top: -47.745358090185675vh;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.button2 {
+    margin-top: -14.588859416445624vh;
+    margin-left: 11.71875vw;
+}
+
+/* ---------------------------------------------------SECTION 2--------------------------------------------------------------------*/
+
+.backs2 {
+    height: 100vh;
+    position: relative;
+    width: 100%! important;
+}
+
+.website {
+    font-size: 2.6041666666666665vw;
+    letter-spacing: 8px;
+}
+
+.websiteinfo {
+    background-color: azure;
+    padding: 1.3020833333333333vw;
+    border: 4px solid black;
+    border-radius: 1.0416666666666667vw;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-size: 1.171875vw;
+    margin-top: 2.6525198938992043vh;
+}
+
+/* -------------------------------------------RESPONSIVE QUERY--------------------------------------------------------------------*/
+
+@media screen and (min-width: 360px) and (max-width: 420px) {
+
+    .developer {
+        margin-top: 3.315649867374005vh;
+        letter-spacing: 0.78125vw;
+        font-size: 3.2vw;
+    }
+
+    .scroller {
+      margin-top: 67vh;
+      margin-left: 41vw;
+    }
+
+    .scroller2 {
+        
+        margin-left: -95px;
+        margin-top: 600px;
+    }
+    
+    .kshitijinfo {
+        margin-top: 0.5vh;
+        letter-spacing: 0.13020833333333334vw;
+        line-height: 1.6;
+        font-weight: 600;
+        font-size: 2.8vw;
+        margin-left: 12px;
+    }
+       
+    .kshitij {
+        width: 28vw! important;
+        border-radius: 1.3020833333333333vw! important;
+        cursor: pointer;
+        transition-duration: 0.5s;
+        margin-top: -3vh;
+        margin-left: 22.4vw;
+        
+    }
+
+    .kshitijtitle {
+        margin-left: 28vw;
+        font-size: 15px;
+        letter-spacing: 0.1953125vw;
+        font-weight: bold;
+        margin-top: 0.6510416666666666vw;
+    }
+
+    .button {
+        
+        margin-top: -53.4vh;
+        margin-left: 41.6vw;
+    }
+
+    .collapsible-header i {
+        font-size: 4.6vw! important;
+    }
+
+    .btn-floating i {
+        font-size: 3.5vw! important;
+    }
+
+    .btn-floating.btn-large {
+        width: 8.6vw! important;
+        height: 5vh! important;
+       
+    }
+
+    .btn-floating.btn-large i {
+        line-height: 5vh! important;
+    }
+
+    .collapsible-header {
+        background-color: rgb(102, 165, 207);
+        font-size: 3.4vw;
+        letter-spacing: 0.3255208333333333vw;
+    }
+
+    .saksham {
+        width: 28vw! important;
+        border-radius: 1.3020833333333333vw! important;
+        cursor: pointer;
+        transition-duration: 0.5s;
+        margin-top: -3vh;
+        margin-left: 22.4vw;
+        
+    }
+
+    .sakshaminfo {
+        margin-top: 0.5vh;
+        letter-spacing: 0.13020833333333334vw;
+        line-height: 1.6;
+        font-weight: 600;
+        font-size: 2.8vw;
+        margin-left: 12px;
+    }
+
+    .sakshamtitle {
+        margin-left: 26.5vw;
+        font-size: 4.3vw;
+        letter-spacing: 0.1953125vw;
+        font-weight: bold;
+        margin-top: 0.6510416666666666vw;
+    }
+
+    .button2 {
+        margin-top: -54vh;
+        margin-left: 41.5vw;
+    }
+
+    
+.backs2 {
+    height: 100vh;
+    position: relative;
+    width: 100vw! important;
+}
+
+.website {
+    margin-top: 3.315649867374005vh;
+    letter-spacing: 0.78125vw;
+    font-size: 3.2vw;
+}
+
+
+.websiteinfo {
+    background-color: azure;
+    padding: 5vw;
+    border: 4px solid black;
+    border-radius: 5vw;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-size: 3.26vw;
+    margin-top: 5px;
+    font-weight: 800;
+}
+
+}
+
